@@ -50,43 +50,43 @@ namespace Test
             GoToURL("https://www.qtptutorial.net/automation-practice/");
             Sleep(3);
 
-            //IWebElement buttonId = WaitForElement(By.XPath("//input[@id='idExample']"), 1);
-            //buttonId.Click();
-            //Sleep(2);
+            IWebElement buttonId = WaitForElement(By.XPath("//input[@id='idExample']"), 1);
+            buttonId.Click();
+            Sleep(2);
 
-            //IWebElement buttonIdText1 = driver.FindElement(By.ClassName("main_title"));
+            IWebElement buttonIdText1 = driver.FindElement(By.ClassName("main_title"));
 
-            //GoToURL("https://www.qtptutorial.net/automation-practice/");
-            //Sleep(3);
+            GoToURL("https://www.qtptutorial.net/automation-practice/");
+            Sleep(3);
 
-            //IWebElement buttonClass = WaitForElement(By.XPath("//input[@class='buttonClassExample']"), 1);
-            //buttonClass.Click();
-            //Sleep(2);
+            IWebElement buttonClass = WaitForElement(By.XPath("//input[@class='buttonClassExample']"), 1);
+            buttonClass.Click();
+            Sleep(2);
 
-            //IWebElement buttonIdText2 = driver.FindElement(By.ClassName("main_title"));
+            IWebElement buttonIdText2 = driver.FindElement(By.ClassName("main_title"));
 
-            //GoToURL("https://www.qtptutorial.net/automation-practice/");
-            //Sleep(3);
-
-
-            //IWebElement buttonName = WaitForElement(By.Name("NameExample"), 1);
-            //buttonName.Click();
-            //Sleep(2);
-
-            //IWebElement buttonIdText3 = driver.FindElement(By.ClassName("main_title"));
+            GoToURL("https://www.qtptutorial.net/automation-practice/");
+            Sleep(3);
 
 
-            //GoToURL("https://www.qtptutorial.net/automation-practice/");
-            //Sleep(3);
+            IWebElement buttonName = WaitForElement(By.Name("NameExample"), 1);
+            buttonName.Click();
+            Sleep(2);
 
-            //IWebElement buttoneMail = driver.FindElement(By.ClassName("et_pb_newsletter_button"));
+            IWebElement buttonIdText3 = driver.FindElement(By.ClassName("main_title"));
 
-            //string name = "Danica";
-            //string email = "dgojko@gmail.com";
 
-            //driver.FindElement(By.Id("et_pb_signup_firstname")).SendKeys(name);
+            GoToURL("https://www.qtptutorial.net/automation-practice/");
+            Sleep(3);
 
-            //driver.FindElement(By.Id("et_pb_signup_email")).SendKeys(email);
+            IWebElement buttoneMail = driver.FindElement(By.ClassName("et_pb_newsletter_button"));
+
+            string name = "Danica";
+            string email = "dgojko@gmail.com";
+
+            driver.FindElement(By.Id("et_pb_signup_firstname")).SendKeys(name);
+
+            driver.FindElement(By.Id("et_pb_signup_email")).SendKeys(email);
 
             IWebElement tableUniq = driver.FindElement(By.Id("htmlTableId"));
 
