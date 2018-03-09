@@ -73,7 +73,7 @@ namespace Test
             buttonName.Click();
             Sleep(2);
 
-            IWebElement buttonIdText3 = driver.FindElement(By.ClassName("entry-content"));
+            IWebElement buttonIdText3 = driver.FindElement(By.ClassName("xh-highlight"));
 
 
             GoToURL("https://www.qtptutorial.net/automation-practice/");
