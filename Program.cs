@@ -52,7 +52,7 @@ namespace Test
             //slova[22] = "V";
             //slova[23] = "W";
             //slova[24] = "X";
-            //slova[25] = "Y";
+            //slova[0] = "Y";
 
             
 
